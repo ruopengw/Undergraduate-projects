@@ -1,0 +1,205 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/CODlab/RISC-V/lab30_Risc5CPU/sim/ALU
+vadder_32bits
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 =4H3?ego;=?Le=8MecTm;2
+Ih@Dd[ifAK62WCCDY54h8U3
+Z1 dE:/CODlab/RISC-V/lab30_Risc5CPU/sim/IF
+w1569144136
+8E:/CODlab/RISC-V/lab30_Risc5CPU/src/adder_32bits.v
+FE:/CODlab/RISC-V/lab30_Risc5CPU/src/adder_32bits.v
+L0 1
+Z2 OL;L;10.4;61
+!s108 1574405461.966000
+!s107 E:/CODlab/RISC-V/lab30_Risc5CPU/src/adder_32bits.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/CODlab/RISC-V/lab30_Risc5CPU/src/adder_32bits.v|
+!i113 0
+Z3 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vadder_4bits
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 [XEYB]U`^j@QKA:1M=TY31
+InCPLZMOdZ5<<PmKPoH:8L1
+R1
+w1569145344
+8E:/CODlab/RISC-V/lab30_Risc5CPU/src/adder_4bits.v
+FE:/CODlab/RISC-V/lab30_Risc5CPU/src/adder_4bits.v
+L0 1
+R2
+!s108 1574405461.857000
+!s107 E:/CODlab/RISC-V/lab30_Risc5CPU/src/adder_4bits.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/CODlab/RISC-V/lab30_Risc5CPU/src/adder_4bits.v|
+!i113 0
+R3
+vadder_4bits_condition
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 LcjG7?VLYYoEJGYNTkCT<2
+I6zQF30X2^7z@o>SmQk0Mf3
+R1
+w1569144209
+8E:/CODlab/RISC-V/lab30_Risc5CPU/src/adder_4bits_condition.v
+FE:/CODlab/RISC-V/lab30_Risc5CPU/src/adder_4bits_condition.v
+L0 1
+R2
+!s108 1574405461.904000
+!s107 E:/CODlab/RISC-V/lab30_Risc5CPU/src/adder_4bits_condition.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/CODlab/RISC-V/lab30_Risc5CPU/src/adder_4bits_condition.v|
+!i113 0
+R3
+vdff
+Z4 !s110 1574405462
+!i10b 1
+!s100 YO0M=G3c45JCLL3LTOh4;3
+ICWcL6anV80Q]6WDn_H[jR2
+R0
+R1
+Z5 w1572764679
+Z6 8E:/CODlab/RISC-V/lab30_Risc5CPU/src/ff_lib.v
+Z7 FE:/CODlab/RISC-V/lab30_Risc5CPU/src/ff_lib.v
+L0 4
+R2
+r1
+!s85 0
+31
+Z8 !s108 1574405462.013000
+Z9 !s107 E:/CODlab/RISC-V/lab30_Risc5CPU/src/ff_lib.v|
+Z10 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/CODlab/RISC-V/lab30_Risc5CPU/src/ff_lib.v|
+!i113 0
+R3
+vdffr
+R4
+!i10b 1
+!s100 3A52P94X`NS]cch8JFIU52
+I[2P>b^ZW9eJZl@GPSOfS00
+R0
+R1
+R5
+R6
+R7
+L0 20
+R2
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R3
+vdffre
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 KBA=W^eOd=fPSmoSCF=[H3
+IG2DZGET0Q8WbB_UK4<0fi2
+R1
+R5
+R6
+R7
+L0 42
+R2
+R8
+R9
+R10
+!i113 0
+R3
+vIF
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 afRZa;QfS4mEXY@bH0bkd1
+I=haE2JKKN<CBgFh;D^Mj22
+R1
+w1573652862
+8E:/CODlab/RISC-V/lab30_Risc5CPU/src/IF/IF.v
+FE:/CODlab/RISC-V/lab30_Risc5CPU/src/IF/IF.v
+L0 6
+R2
+!s108 1574405461.694000
+!s107 E:/CODlab/RISC-V/lab30_Risc5CPU/src/IF/IF.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/CODlab/RISC-V/lab30_Risc5CPU/src/IF/IF.v|
+!i113 0
+R3
+n@i@f
+vIF_tb
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 GhDaI0=:>OJ<^PL8kUSRO2
+IS?<@SHJ_^NXP9MTM4CUK=1
+R1
+w1570497635
+8E:/CODlab/RISC-V/lab30_Risc5CPU/src/IF/IF_tb.v
+FE:/CODlab/RISC-V/lab30_Risc5CPU/src/IF/IF_tb.v
+L0 6
+R2
+!s108 1574405461.763000
+!s107 E:/CODlab/RISC-V/lab30_Risc5CPU/src/IF/IF_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/CODlab/RISC-V/lab30_Risc5CPU/src/IF/IF_tb.v|
+!i113 0
+R3
+n@i@f_tb
+vInstructionROM
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 =UZ1JTUKnzzAb`^R`]oeF2
+I9WTY1LH3jY1Y?`gBbWWg92
+R1
+w1569722844
+8E:/CODlab/RISC-V/lab30_Risc5CPU/src/IF/InstructionROM.v
+FE:/CODlab/RISC-V/lab30_Risc5CPU/src/IF/InstructionROM.v
+L0 22
+R2
+!s108 1574405461.647000
+!s107 E:/CODlab/RISC-V/lab30_Risc5CPU/src/IF/InstructionROM.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/CODlab/RISC-V/lab30_Risc5CPU/src/IF/InstructionROM.v|
+!i113 0
+R3
+n@instruction@r@o@m
+vmux2to1
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 i4;0`>6iVb=36@LhcK3E13
+IDQmdQibGZc@nR4M:eHCm[3
+R1
+w1569156799
+8E:/CODlab/RISC-V/lab30_Risc5CPU/src/mux2to1.v
+FE:/CODlab/RISC-V/lab30_Risc5CPU/src/mux2to1.v
+L0 1
+R2
+!s108 1574405461.810000
+!s107 E:/CODlab/RISC-V/lab30_Risc5CPU/src/mux2to1.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/CODlab/RISC-V/lab30_Risc5CPU/src/mux2to1.v|
+!i113 0
+R3

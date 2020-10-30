@@ -1,0 +1,43 @@
+E:/CODlab/RISC-V/lab30_Risc5CPU/src/EX/ALU.v {1 {vlog -work work -vopt -stats=none E:/CODlab/RISC-V/lab30_Risc5CPU/src/EX/ALU.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} E:/CODlab/RISC-V/lab30_Risc5CPU/src/adder_32bits.v {1 {vlog -work work -vopt -stats=none E:/CODlab/RISC-V/lab30_Risc5CPU/src/adder_32bits.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module adder_32bits
+
+Top level modules:
+	adder_32bits
+
+} {} {}} E:/CODlab/RISC-V/lab30_Risc5CPU/src/adder_4bits_condition.v {1 {vlog -work work -vopt -stats=none E:/CODlab/RISC-V/lab30_Risc5CPU/src/adder_4bits_condition.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module adder_4bits_condition
+
+Top level modules:
+	adder_4bits_condition
+
+} {} {}} E:/CODlab/RISC-V/lab30_Risc5CPU/src/EX/ALU_tb.v {1 {vlog -work work -vopt -stats=none E:/CODlab/RISC-V/lab30_Risc5CPU/src/EX/ALU_tb.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module ALU_tb
+
+Top level modules:
+	ALU_tb
+
+} {} {}} E:/CODlab/RISC-V/lab30_Risc5CPU/src/mux2to1.v {1 {vlog -work work -vopt -stats=none E:/CODlab/RISC-V/lab30_Risc5CPU/src/mux2to1.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module mux2to1
+
+Top level modules:
+	mux2to1
+
+} {} {}} E:/CODlab/RISC-V/lab30_Risc5CPU/src/adder_4bits.v {1 {vlog -work work -vopt -stats=none E:/CODlab/RISC-V/lab30_Risc5CPU/src/adder_4bits.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module adder_4bits
+
+Top level modules:
+	adder_4bits
+
+} {} {}}

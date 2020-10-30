@@ -1,0 +1,143 @@
+E:/CODlab/RISC-V/lab30_Risc5CPU/src/ID/RAW_Registers.v {1 {vlog -work work -vopt -stats=none E:/CODlab/RISC-V/lab30_Risc5CPU/src/ID/RAW_Registers.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module RAW_Registers
+
+Top level modules:
+	RAW_Registers
+
+} {} {}} E:/CODlab/RISC-V/lab30_Risc5CPU/src/Risc5CPU.v {1 {vlog -work work -vopt -stats=none E:/CODlab/RISC-V/lab30_Risc5CPU/src/Risc5CPU.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module Risc5CPU
+
+Top level modules:
+	Risc5CPU
+
+} {} {}} E:/CODlab/RISC-V/lab30_Risc5CPU/src/EX/ALU.v {1 {vlog -work work -vopt -stats=none E:/CODlab/RISC-V/lab30_Risc5CPU/src/EX/ALU.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} E:/CODlab/RISC-V/lab30_Risc5CPU/src/ID/Hazard_detector.v {1 {vlog -work work -vopt -stats=none E:/CODlab/RISC-V/lab30_Risc5CPU/src/ID/Hazard_detector.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module Hazard_detector
+
+Top level modules:
+	Hazard_detector
+
+} {} {}} E:/CODlab/RISC-V/lab30_Risc5CPU/src/mux2to1.v {1 {vlog -work work -vopt -stats=none E:/CODlab/RISC-V/lab30_Risc5CPU/src/mux2to1.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module mux2to1
+
+Top level modules:
+	mux2to1
+
+} {} {}} E:/CODlab/RISC-V/lab30_Risc5CPU/src/ID/ID.v {1 {vlog -work work -vopt -stats=none E:/CODlab/RISC-V/lab30_Risc5CPU/src/ID/ID.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module ID
+
+Top level modules:
+	ID
+
+} {} {}} E:/CODlab/RISC-V/lab30_Risc5CPU/src/ID/Branch_test.v {1 {vlog -work work -vopt -stats=none E:/CODlab/RISC-V/lab30_Risc5CPU/src/ID/Branch_test.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module Branch_test
+
+Top level modules:
+	Branch_test
+
+} {} {}} E:/CODlab/RISC-V/lab30_Risc5CPU/src/EX/EX.v {1 {vlog -work work -vopt -stats=none E:/CODlab/RISC-V/lab30_Risc5CPU/src/EX/EX.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module EX
+
+Top level modules:
+	EX
+
+} {} {}} E:/CODlab/RISC-V/lab30_Risc5CPU/src/EX/forward.v {1 {vlog -work work -vopt -stats=none E:/CODlab/RISC-V/lab30_Risc5CPU/src/EX/forward.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module forward
+
+Top level modules:
+	forward
+
+} {} {}} E:/CODlab/RISC-V/lab30_Risc5CPU/src/ff_lib.v {1 {vlog -work work -vopt -stats=none E:/CODlab/RISC-V/lab30_Risc5CPU/src/ff_lib.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module dff
+-- Compiling module dffr
+-- Compiling module dffre
+
+Top level modules:
+	dff
+	dffr
+	dffre
+
+} {} {}} E:/CODlab/RISC-V/lab30_Risc5CPU/src/adder_4bits_condition.v {1 {vlog -work work -vopt -stats=none E:/CODlab/RISC-V/lab30_Risc5CPU/src/adder_4bits_condition.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module adder_4bits_condition
+
+Top level modules:
+	adder_4bits_condition
+
+} {} {}} E:/CODlab/RISC-V/lab30_Risc5CPU/src/Risc5CPU_tb.v {1 {vlog -work work -vopt -stats=none E:/CODlab/RISC-V/lab30_Risc5CPU/src/Risc5CPU_tb.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module Risc5CPU_tb_v
+
+Top level modules:
+	Risc5CPU_tb_v
+
+} {} {}} E:/CODlab/RISC-V/lab30_Risc5CPU/src/ID/Registers.v {1 {vlog -work work -vopt -stats=none E:/CODlab/RISC-V/lab30_Risc5CPU/src/ID/Registers.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module Registers
+
+Top level modules:
+	Registers
+
+} {} {}} E:/CODlab/RISC-V/lab30_Risc5CPU/src/DataRAM_sim_netlist.v {1 {vlog -work work -vopt -stats=none E:/CODlab/RISC-V/lab30_Risc5CPU/src/DataRAM_sim_netlist.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module DataRAM
+-- Compiling module DataRAM_dist_mem_gen_v8_0_11
+-- Compiling module DataRAM_dist_mem_gen_v8_0_11_synth
+-- Compiling module DataRAM_spram
+-- Compiling module glbl
+
+Top level modules:
+	DataRAM
+	glbl
+
+} {} {}} E:/CODlab/RISC-V/lab30_Risc5CPU/src/adder_4bits.v {1 {vlog -work work -vopt -stats=none E:/CODlab/RISC-V/lab30_Risc5CPU/src/adder_4bits.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module adder_4bits
+
+Top level modules:
+	adder_4bits
+
+} {} {}} E:/CODlab/RISC-V/lab30_Risc5CPU/src/IF/IF.v {1 {vlog -work work -vopt -stats=none E:/CODlab/RISC-V/lab30_Risc5CPU/src/IF/IF.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module IF
+
+Top level modules:
+	IF
+
+} {} {}} E:/CODlab/RISC-V/lab30_Risc5CPU/src/adder_32bits.v {1 {vlog -work work -vopt -stats=none E:/CODlab/RISC-V/lab30_Risc5CPU/src/adder_32bits.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module adder_32bits
+
+Top level modules:
+	adder_32bits
+
+} {} {}} E:/CODlab/RISC-V/lab30_Risc5CPU/src/IF/InstructionROM.v {1 {vlog -work work -vopt -stats=none E:/CODlab/RISC-V/lab30_Risc5CPU/src/IF/InstructionROM.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module InstructionROM
+
+Top level modules:
+	InstructionROM
+
+} {} {}} E:/CODlab/RISC-V/lab30_Risc5CPU/src/ID/Decode.v {1 {vlog -work work -vopt -stats=none E:/CODlab/RISC-V/lab30_Risc5CPU/src/ID/Decode.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module Decode
+
+Top level modules:
+	Decode
+
+} {} {}}

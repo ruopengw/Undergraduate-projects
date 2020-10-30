@@ -1,0 +1,16 @@
+E:/CODlab/cache/src/cache_controller_tb.v {1 {vlog -work work -vopt -stats=none E:/CODlab/cache/src/cache_controller_tb.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module cache_controller_tb
+
+Top level modules:
+	cache_controller_tb
+
+} {} {}} E:/CODlab/cache/src/cache_controller.v {1 {vlog -work work -vopt -stats=none E:/CODlab/cache/src/cache_controller.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module cache_controller
+-- Compiling module counter_n
+
+Top level modules:
+	cache_controller
+
+} {} {}}

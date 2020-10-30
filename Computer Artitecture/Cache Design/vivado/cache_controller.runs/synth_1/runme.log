@@ -1,0 +1,296 @@
+
+*** Running vivado
+    with args -log cache_controller.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source cache_controller.tcl
+
+
+****** Vivado v2017.1 (64-bit)
+  **** SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+  **** IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source cache_controller.tcl -notrace
+Command: synth_design -top cache_controller -part xc7k70tfbv676-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k70t-fbv676'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k70t-fbv676'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 15636 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 308.641 ; gain = 80.484
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'cache_controller' [E:/CODlab/cache/src/cache_controller.v:1]
+	Parameter s0 bound to: 3'b000 
+	Parameter s1 bound to: 3'b001 
+	Parameter s2 bound to: 3'b010 
+	Parameter s3 bound to: 3'b011 
+	Parameter s4 bound to: 3'b100 
+	Parameter s5 bound to: 3'b101 
+	Parameter s6 bound to: 3'b110 
+INFO: [Synth 8-638] synthesizing module 'counter_n' [E:/CODlab/cache/src/cache_controller.v:126]
+	Parameter n bound to: 8 - type: integer 
+	Parameter counter_bits bound to: 3 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'counter_n' (1#1) [E:/CODlab/cache/src/cache_controller.v:126]
+INFO: [Synth 8-155] case statement is not full and has no default [E:/CODlab/cache/src/cache_controller.v:40]
+WARNING: [Synth 8-6014] Unused sequential element dirty_set1_active_reg was removed.  [E:/CODlab/cache/src/cache_controller.v:47]
+WARNING: [Synth 8-6014] Unused sequential element dirty_set2_active_reg was removed.  [E:/CODlab/cache/src/cache_controller.v:48]
+WARNING: [Synth 8-6014] Unused sequential element valid_set1_active_reg was removed.  [E:/CODlab/cache/src/cache_controller.v:49]
+WARNING: [Synth 8-6014] Unused sequential element valid_set2_active_reg was removed.  [E:/CODlab/cache/src/cache_controller.v:50]
+INFO: [Synth 8-256] done synthesizing module 'cache_controller' (2#1) [E:/CODlab/cache/src/cache_controller.v:1]
+WARNING: [Synth 8-3331] design cache_controller has unconnected port addr[10]
+WARNING: [Synth 8-3331] design cache_controller has unconnected port addr[9]
+WARNING: [Synth 8-3331] design cache_controller has unconnected port addr[8]
+WARNING: [Synth 8-3331] design cache_controller has unconnected port addr[7]
+WARNING: [Synth 8-3331] design cache_controller has unconnected port addr[6]
+WARNING: [Synth 8-3331] design cache_controller has unconnected port addr[5]
+WARNING: [Synth 8-3331] design cache_controller has unconnected port addr[4]
+WARNING: [Synth 8-3331] design cache_controller has unconnected port addr[3]
+WARNING: [Synth 8-3331] design cache_controller has unconnected port addr[2]
+WARNING: [Synth 8-3331] design cache_controller has unconnected port addr[1]
+WARNING: [Synth 8-3331] design cache_controller has unconnected port addr[0]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 347.715 ; gain = 119.559
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 347.715 ; gain = 119.559
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k70tfbv676-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 347.715 ; gain = 119.559
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7k70tfbv676-1
+WARNING: [Synth 8-327] inferring latch for variable 'hit_reg' [E:/CODlab/cache/src/cache_controller.v:28]
+WARNING: [Synth 8-327] inferring latch for variable 'miss_reg' [E:/CODlab/cache/src/cache_controller.v:28]
+WARNING: [Synth 8-327] inferring latch for variable 'load_ready_reg' [E:/CODlab/cache/src/cache_controller.v:43]
+WARNING: [Synth 8-327] inferring latch for variable 'write_l1_reg' [E:/CODlab/cache/src/cache_controller.v:44]
+WARNING: [Synth 8-327] inferring latch for variable 'read_l2_reg' [E:/CODlab/cache/src/cache_controller.v:27]
+WARNING: [Synth 8-327] inferring latch for variable 'write_l2_reg' [E:/CODlab/cache/src/cache_controller.v:27]
+WARNING: [Synth 8-327] inferring latch for variable 'nextstate_reg' [E:/CODlab/cache/src/cache_controller.v:51]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 347.715 ; gain = 119.559
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	                3 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      3 Bit        Muxes := 2     
+	   5 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   8 Input      1 Bit        Muxes := 7     
+	   2 Input      1 Bit        Muxes := 11    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module cache_controller 
+Detailed RTL Component Info : 
++---Registers : 
+	                3 Bit    Registers := 1     
++---Muxes : 
+	   5 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   8 Input      1 Bit        Muxes := 7     
+	   2 Input      1 Bit        Muxes := 11    
+Module counter_n 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	                3 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      3 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3331] design cache_controller has unconnected port addr[10]
+WARNING: [Synth 8-3331] design cache_controller has unconnected port addr[9]
+WARNING: [Synth 8-3331] design cache_controller has unconnected port addr[8]
+WARNING: [Synth 8-3331] design cache_controller has unconnected port addr[7]
+WARNING: [Synth 8-3331] design cache_controller has unconnected port addr[6]
+WARNING: [Synth 8-3331] design cache_controller has unconnected port addr[5]
+WARNING: [Synth 8-3331] design cache_controller has unconnected port addr[4]
+WARNING: [Synth 8-3331] design cache_controller has unconnected port addr[3]
+WARNING: [Synth 8-3331] design cache_controller has unconnected port addr[2]
+WARNING: [Synth 8-3331] design cache_controller has unconnected port addr[1]
+WARNING: [Synth 8-3331] design cache_controller has unconnected port addr[0]
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 480.102 ; gain = 251.945
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 480.102 ; gain = 251.945
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 481.477 ; gain = 253.320
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 481.477 ; gain = 253.320
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 481.477 ; gain = 253.320
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 481.477 ; gain = 253.320
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 481.477 ; gain = 253.320
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 481.477 ; gain = 253.320
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 481.477 ; gain = 253.320
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |     8|
+|3     |LUT2   |     7|
+|4     |LUT3   |     8|
+|5     |LUT4   |     3|
+|6     |LUT5   |     2|
+|7     |LUT6   |    36|
+|8     |FDRE   |     6|
+|9     |LD     |     9|
+|10    |IBUF   |    72|
+|11    |OBUF   |     9|
++------+-------+------+
+
+Report Instance Areas: 
++------+------------+----------+------+
+|      |Instance    |Module    |Cells |
++------+------------+----------+------+
+|1     |top         |          |   161|
+|2     |  counter_8 |counter_n |    20|
++------+------------+----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 481.477 ; gain = 253.320
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 33 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 481.477 ; gain = 253.320
+Synthesis Optimization Complete : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 481.477 ; gain = 253.320
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 89 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 9 instances were transformed.
+  LD => LDCE: 9 instances
+
+13 Infos, 33 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 555.129 ; gain = 332.852
+INFO: [Common 17-1381] The checkpoint 'E:/CODlab/cache/vivado/cache_controller.runs/synth_1/cache_controller.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.019 . Memory (MB): peak = 555.129 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Sun Dec 15 15:10:59 2019...

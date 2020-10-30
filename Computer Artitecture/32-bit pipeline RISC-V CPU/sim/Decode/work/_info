@@ -1,0 +1,50 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/modeltech64_10.4/examples
+vDecode
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 f]3N5Y;m]MO7YKd;cnCU=2
+IU6cEJhc3]Y@0c`kcNQP4W3
+Z1 dE:/CODlab/RISC-V/lab30_Risc5CPU/sim/Decode
+w1573654020
+8E:/CODlab/RISC-V/lab30_Risc5CPU/src/ID/Decode.v
+FE:/CODlab/RISC-V/lab30_Risc5CPU/src/ID/Decode.v
+L0 6
+Z2 OL;L;10.4;61
+!s108 1574403854.060000
+!s107 E:/CODlab/RISC-V/lab30_Risc5CPU/src/ID/Decode.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/CODlab/RISC-V/lab30_Risc5CPU/src/ID/Decode.v|
+!i113 0
+Z3 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+n@decode
+vDecode_tb
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 N;hD__JI`LaklEXhWCo>01
+I7mZ?Lf3^ASKLZ^7Ch<YPQ3
+R1
+w1570497285
+8E:/CODlab/RISC-V/lab30_Risc5CPU/src/ID/Decode_tb.v
+FE:/CODlab/RISC-V/lab30_Risc5CPU/src/ID/Decode_tb.v
+L0 6
+R2
+!s108 1574403853.967000
+!s107 E:/CODlab/RISC-V/lab30_Risc5CPU/src/ID/Decode_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/CODlab/RISC-V/lab30_Risc5CPU/src/ID/Decode_tb.v|
+!i113 0
+R3
+n@decode_tb

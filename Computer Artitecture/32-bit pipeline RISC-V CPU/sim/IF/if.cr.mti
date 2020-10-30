@@ -1,0 +1,61 @@
+E:/CODlab/RISC-V/lab30_Risc5CPU/src/ff_lib.v {1 {vlog -work work -vopt -stats=none E:/CODlab/RISC-V/lab30_Risc5CPU/src/ff_lib.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module dff
+-- Compiling module dffr
+-- Compiling module dffre
+
+Top level modules:
+	dff
+	dffr
+	dffre
+
+} {} {}} E:/CODlab/RISC-V/lab30_Risc5CPU/src/adder_32bits.v {1 {vlog -work work -vopt -stats=none E:/CODlab/RISC-V/lab30_Risc5CPU/src/adder_32bits.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module adder_32bits
+
+Top level modules:
+	adder_32bits
+
+} {} {}} E:/CODlab/RISC-V/lab30_Risc5CPU/src/IF/IF_tb.v {1 {vlog -work work -vopt -stats=none E:/CODlab/RISC-V/lab30_Risc5CPU/src/IF/IF_tb.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module IF_tb
+
+Top level modules:
+	IF_tb
+
+} {} {}} E:/CODlab/RISC-V/lab30_Risc5CPU/src/IF/InstructionROM.v {1 {vlog -work work -vopt -stats=none E:/CODlab/RISC-V/lab30_Risc5CPU/src/IF/InstructionROM.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module InstructionROM
+
+Top level modules:
+	InstructionROM
+
+} {} {}} E:/CODlab/RISC-V/lab30_Risc5CPU/src/adder_4bits_condition.v {1 {vlog -work work -vopt -stats=none E:/CODlab/RISC-V/lab30_Risc5CPU/src/adder_4bits_condition.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module adder_4bits_condition
+
+Top level modules:
+	adder_4bits_condition
+
+} {} {}} E:/CODlab/RISC-V/lab30_Risc5CPU/src/mux2to1.v {1 {vlog -work work -vopt -stats=none E:/CODlab/RISC-V/lab30_Risc5CPU/src/mux2to1.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module mux2to1
+
+Top level modules:
+	mux2to1
+
+} {} {}} E:/CODlab/RISC-V/lab30_Risc5CPU/src/IF/IF.v {1 {vlog -work work -vopt -stats=none E:/CODlab/RISC-V/lab30_Risc5CPU/src/IF/IF.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module IF
+
+Top level modules:
+	IF
+
+} {} {}} E:/CODlab/RISC-V/lab30_Risc5CPU/src/adder_4bits.v {1 {vlog -work work -vopt -stats=none E:/CODlab/RISC-V/lab30_Risc5CPU/src/adder_4bits.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module adder_4bits
+
+Top level modules:
+	adder_4bits
+
+} {} {}}
