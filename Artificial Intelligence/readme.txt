@@ -12,7 +12,6 @@ Here are my course projects of Artificial Intelligence.
 - Evaluated the restoration result by calculating 2-norm, SSIM similarity, cosine similarity between the restored picture and the original picture.
 - Able to restore 95% of the high-spoiled picture.
 
-
 4. Conditional GAN
 - Established a conditional generative adversarial network, adjust the parameters as god as possible. 
 - During the training process, the cGAN can generate pictures based on MNIST dataset.
